@@ -1,0 +1,10 @@
+dependencies {
+
+    implementation project(':usecase')
+    implementation project(':model')
+    testImplementation libs.unit_tests
+    implementation     libs.spring_boot
+    implementation     libs.spring_rest
+    implementation	libs.api_validation
+}
+

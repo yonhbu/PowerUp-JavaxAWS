@@ -1,0 +1,11 @@
+dependencies {
+    implementation project(':model')
+    implementation project(':helpers-repository-commons')
+
+    runtimeOnly 'com.h2database:h2'
+    implementation	libs.api_validation
+    implementation	libs.mapper
+    implementation	libs.spring_jpa
+    testImplementation libs.unit_tests
+
+}
