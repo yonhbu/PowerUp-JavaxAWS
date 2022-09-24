@@ -16,7 +16,6 @@ public class UserModelOperationJPA implements IUserModelGateway {
 
 	private final IUserModelRepositoryJPA iUserModelRepositoryJPA;
 
-
 	@Override
 	public UserModel saveUserModel(UserModel userModel) {
 

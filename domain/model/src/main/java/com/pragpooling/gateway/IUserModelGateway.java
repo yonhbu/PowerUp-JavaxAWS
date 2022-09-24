@@ -6,9 +6,9 @@ import com.pragpooling.model.UserModel;
 
 public interface IUserModelGateway {
 
-	public UserModel saveUserModel (UserModel userModel);
+	UserModel saveUserModel (UserModel userModel);
 	
-	public List<UserModel> findAllUserModel();
+	List<UserModel> findAllUserModel();
 
 
 }
